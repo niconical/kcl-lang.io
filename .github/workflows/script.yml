@@ -33,7 +33,7 @@ jobs:
       - name: Check Install Script
         run: static/script/install.sh
       - name: Check KCL run
-        run: export PATH=$PATH:/usr/local/kclvm/bin && sudo kcl hello.k && sudo kcl hello.k --target native
+        run: export PATH=$PATH:/usr/local/kclvm/bin && kcl hello.k && kcl hello.k --target native
 
       - uses: actions/setup-python@v4
         with:
