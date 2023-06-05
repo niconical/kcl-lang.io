@@ -32,7 +32,7 @@ $KCLCliFilePath = "${KCLCliFileBinPath}\${KCLCliFileName}"
 
 # GitHub Org and repo hosting KCL CLI
 $GitHubOrg = "KusionStack"
-$GitHubRepo = "KCLVM"
+$GitHubRepo = "kcl"
 
 # Set Github request authentication for basic authentication.
 if ($Env:GITHUB_USER) {
